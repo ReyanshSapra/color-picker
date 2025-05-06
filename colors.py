@@ -3,7 +3,7 @@ from PIL import ImageColor
 
 st.title("Color Picker")
 
-selected_color = st.color_picker("Pick a color")
+selected_color = st.color_picker("Click the box below to select", value="#FFFFFF")
 
 st.write("---")
 
